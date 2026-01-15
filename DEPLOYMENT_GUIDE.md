@@ -776,7 +776,7 @@ EOF
 
 ```bash
 git add .
-git commit -m "Initial commit - Refiners Team website"
+git commit -m "Initial commit - Edu Refiners Team website"
 ```
 
 **Expected Output:**
@@ -788,7 +788,7 @@ git commit -m "Initial commit - Refiners Team website"
 #### Create Repository on GitHub:
 
 1. Go to: https://github.com/new
-2. Repository name: `refiners-team`
+2. Repository name: `Edu-Refiners`
 3. Description: `Academic support organization website`
 4. Choose **Public** (or Private if you prefer)
 5. **DON'T** check "Initialize with README" (we already have code)
@@ -799,7 +799,7 @@ git commit -m "Initial commit - Refiners Team website"
 GitHub will show you commands. Copy them or use these:
 
 ```bash
-git remote add origin https://github.com/YOUR_USERNAME/refiners-team.git
+git remote add origin https://github.com/YOUR_USERNAME/Edu-Refiners.git
 git branch -M main
 git push -u origin main
 ```
@@ -810,7 +810,7 @@ Replace `YOUR_USERNAME` with your actual GitHub username.
 ```
 Enumerating objects: XX, done.
 Writing objects: 100%, done.
-To https://github.com/YOUR_USERNAME/refiners-team.git
+To https://github.com/YOUR_USERNAME/Edu-Refiners.git
  * [new branch]      main -> main
 ```
 
@@ -824,14 +824,14 @@ To https://github.com/YOUR_USERNAME/refiners-team.git
 
 1. Go to: https://vercel.com/new
 2. You'll see "Import Git Repository"
-3. Find `refiners-team` in the list
+3. Find `Edu-Refiners` in the list
 4. Click **"Import"**
 
 #### Configure Project:
 
 Vercel will show configuration options:
 
-1. **Project Name:** `refiners-team` (or change it)
+1. **Project Name:** `Edu-Refiners` (or change it)
 2. **Framework Preset:** Should auto-detect "Vite" ✅
 3. **Root Directory:** `.` (leave as default)
 4. **Build Command:** Leave as `npm run build`
