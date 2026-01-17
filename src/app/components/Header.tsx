@@ -38,7 +38,7 @@ export function Header({ theme, toggleTheme, logoUrl, onAboutClick }: HeaderProp
               )}
             </div>
             <span className={`font-bold text-xl ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
-              Refiners Team
+              Edu Refiners
             </span>
           </button>
 

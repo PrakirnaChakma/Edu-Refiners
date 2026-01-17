@@ -14,7 +14,7 @@ export function Footer({ theme, footerData, onAdminClick }: FooterProps) {
           {/* About */}
           <div>
             <h3 className={`text-xl font-bold mb-4 ${theme === 'dark' ? 'text-white' : 'text-gray-900'}`}>
-              Refiners Team
+              Edu Refiners
             </h3>
             <p className={`${theme === 'dark' ? 'text-gray-400' : 'text-gray-600'}`}>
               {footerData.about || "Empowering students through collaborative learning and dedicated mentorship. Together, we refine knowledge and build futures."}
@@ -97,7 +97,7 @@ export function Footer({ theme, footerData, onAdminClick }: FooterProps) {
           <div className={`text-center flex items-center justify-center gap-1 ${theme === 'dark' ? 'text-gray-400' : 'text-gray-600'}`}>
             <span>Made with</span>
             <Heart className={`w-4 h-4 ${theme === 'dark' ? 'text-purple-500 fill-purple-500' : 'text-purple-600 fill-purple-600'}`} />
-            <span>by Refiners Team © 2026</span>
+            <span>by Refiners Team- Prakirna Chakma © 2026</span>
           </div>
         </div>
       </div>

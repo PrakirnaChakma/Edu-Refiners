@@ -1,3 +1,6 @@
 {
-  "imports": {}
+  "imports": {
+    "hono": "https://deno.land/x/hono@v4.0.0/mod.ts",
+    "hono/cors": "https://deno.land/x/hono@v4.0.0/middleware.ts"
+  }
 }

@@ -24,7 +24,7 @@ export default function App() {
 
   // Data states
   const [landingData, setLandingData] = useState({
-    welcomeText: 'Welcome to Refiners Team',
+    welcomeText: 'Welcome to Edu Refiners',
     subtext1: 'We try to aid juniors academically by providing direct contact and resources',
     subtext2: 'Having trouble with your studies? Feel free to join and contact our socials for 1:1 guidance'
   });
@@ -57,7 +57,7 @@ export default function App() {
     try {
       const [landing, logo, contactsList, instructions, noticesList, resourcesList, footer, about] = await Promise.all([
         api.getLanding().catch(() => ({
-          welcomeText: 'Welcome to Refiners Team',
+          welcomeText: 'Welcome to Edu Refiners',
           subtext1: 'We try to aid juniors academically by providing direct contact and resources',
           subtext2: 'Having trouble with your studies? Feel free to join and contact our socials for 1:1 guidance'
         })),
